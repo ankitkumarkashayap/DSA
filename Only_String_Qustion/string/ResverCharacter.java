@@ -1,0 +1,19 @@
+package Only_String_Qustion.string;
+
+public class ResverCharacter {
+
+    public static void Revers_String(String s){
+        String res=" ";
+    for(int i=0;i<s.length();i++){
+        char c=s.charAt(i);
+        res=c+res;
+    }
+    System.out.println(res);
+    }
+    public static void main(String[] args) {
+        String s="abc";
+        Revers_String(s);
+        
+    }
+    
+}
